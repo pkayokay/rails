@@ -1,3 +1,10 @@
+*   Add redirect_if_authenticated to authentication generator
+
+    An authenticated user should not be able to view the login page and password reset page. 
+    The method has been added to the sessions and passwords controllers.
+
+    *Paul Kim*
+
 *   Add a `SessionTestHelper` module with `sign_in_as(user)` and `sign_out` test helpers when
     running `rails g authentication`. Simplifies authentication in integration tests.
 
